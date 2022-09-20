@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SongList from './SongList.jsx';
 
 
 class App extends Component {
@@ -8,7 +9,10 @@ class App extends Component {
 
   render() {
     return (
-      <h1>Hello World!</h1>
+      <>
+        <h1>Hello World!</h1>
+        <SongList />
+      </>
     );
   }
 }
